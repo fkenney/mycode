@@ -7,7 +7,9 @@ def main():
     animals =["Fox", "Fly", "Ant", "Bee", "Cod", "Cat"]
     
     #prints animals
-    print(animals)
+    for x in animals:
+        print(x)
+
 
 if __name__ == "__main__":
         main()
